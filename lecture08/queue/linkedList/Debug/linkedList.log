@@ -1,0 +1,5 @@
+﻿  main.c
+d:\dgsw.algorithm\lecture08\linkedlist\linkedlist\main.c(21): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+d:\dgsw.algorithm\lecture08\linkedlist\linkedlist\main.c(33): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+d:\dgsw.algorithm\lecture08\linkedlist\linkedlist\main.c(45): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+  linkedList.vcxproj -> D:\dgsw.algorithm\lecture08\linkedList\Debug\linkedList.exe
