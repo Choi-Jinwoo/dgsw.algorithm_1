@@ -14,18 +14,19 @@ void main() {
 		cnt++;
 	}
 	
-	for (int i = 0; i < cnt; i++) {
-		if (i % 2 == 1) {
-			if (arr[i - 1] > arr[i]) {
-				int temp = arr[i];
-				arr[i] = arr[i - 1];
-				arr[i - 1] = temp;
-			}
-			if (arr[i + 1] > arr[i]) {
-				int temp = arr[i];
-				arr[i] = arr[i + 1];
-				arr[i + 1] = temp;
-			}
+	for (int i = 1; i < cnt; i += 2) {
+		if (arr[i - 1] > arr[i]) {
+			int temp = arr[i];
+			arr[i] = arr[i - 1];
+			arr[i - 1] = temp;
+		}
+		if (i + 2 > cnt - 1) {
+			break;
+		}
+		if (arr[i + 1] > arr[i]) {
+			int temp = arr[i];
+			arr[i] = arr[i + 1];
+			arr[i + 1] = temp;
 		}
 	}
 
