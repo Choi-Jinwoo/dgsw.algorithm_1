@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{AD303656-42D0-471A-AC0F-CCD055C78D40}</ProjectGuid>
+    <ProjectGuid>{3F95DB3E-2D21-4373-80B4-1E037C59A022}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>continousNumberIdx</RootNamespace>
+    <RootNamespace>FindMaxContinousNumberIdx</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
